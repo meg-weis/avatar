@@ -1,0 +1,177 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 252,
+      "max": [
+        11,
+        -7.9380002021789551,
+        -8.4069995880126953
+      ],
+      "min": [
+        -21.461000442504883,
+        -22.12299919128418,
+        -22.593000411987305
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3024,
+      "componentType": 5126,
+      "count": 252,
+      "max": [
+        1,
+        0.70743697881698608,
+        0.70728951692581177
+      ],
+      "min": [
+        -1,
+        -0.70749920606613159,
+        -0.70741605758666992
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 600,
+      "max": [
+        251
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "meg-weis (https://sketchfab.com/meg-weis)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/air-a8cf5fe683854cb9a0b5337577e889c9",
+      "title": "Air"
+    },
+    "generator": "Sketchfab-9.73.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2400,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6048,
+      "byteOffset": 2400,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8448,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "color_-1028593425",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.69019600000000003,
+          0.90980399999999995,
+          0.93725499999999995,
+          0.23921600000000001
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        -1.6081226229577292e-16,
+        -2.832769343193999e-16,
+        0,
+        -2.832769343193999e-16,
+        2.2204460492503131e-16,
+        -1,
+        0,
+        1.6081226229577292e-16,
+        1,
+        2.2204460492503131e-16,
+        0,
+        -1.7763568394002505e-15,
+        0.46949911117553711,
+        -30.53050422668457,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "tinker.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,11 @@
+Model Information:
+* title:	water
+* source:	https://sketchfab.com/3d-models/water-4083cc2bed5b442eb2e17c0f700d1ec6
+* author:	meg-weis (https://sketchfab.com/meg-weis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "water" (https://sketchfab.com/3d-models/water-4083cc2bed5b442eb2e17c0f700d1ec6) by meg-weis (https://sketchfab.com/meg-weis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

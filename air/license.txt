@@ -1,0 +1,11 @@
+Model Information:
+* title:	Air
+* source:	https://sketchfab.com/3d-models/air-a8cf5fe683854cb9a0b5337577e889c9
+* author:	meg-weis (https://sketchfab.com/meg-weis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Air" (https://sketchfab.com/3d-models/air-a8cf5fe683854cb9a0b5337577e889c9) by meg-weis (https://sketchfab.com/meg-weis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
