@@ -5,13 +5,13 @@
       "componentType": 5126,
       "count": 1644,
       "max": [
-        56.075000762939453,
+        56.07500076293945,
         -1.996999979019165,
-        13
+        13.0
       ],
       "min": [
-        -41.384998321533203,
-        -7,
+        -41.3849983215332,
+        -7.0,
         -27.059999465942383
       ],
       "type": "VEC3"
@@ -22,14 +22,14 @@
       "componentType": 5126,
       "count": 1644,
       "max": [
-        1,
+        1.0,
         1.0178062439081259e-05,
-        1
+        1.0
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -1.0,
+        -1.0,
+        -1.0
       ],
       "type": "VEC3"
     },
@@ -37,12 +37,6 @@
       "bufferView": 0,
       "componentType": 5125,
       "count": 3672,
-      "max": [
-        1643
-      ],
-      "min": [
-        0
-      ],
       "type": "SCALAR"
     },
     {
@@ -51,14 +45,14 @@
       "componentType": 5126,
       "count": 1994,
       "max": [
-        65.000999450683594,
-        -0,
-        18
+        65.0009994506836,
+        -0.0,
+        18.0
       ],
       "min": [
-        -63,
-        -4,
-        -46
+        -63.0,
+        -4.0,
+        -46.0
       ],
       "type": "VEC3"
     },
@@ -68,14 +62,14 @@
       "componentType": 5126,
       "count": 1994,
       "max": [
-        1,
-        1,
-        1
+        1.0,
+        1.0,
+        1.0
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -1.0,
+        -1.0,
+        -1.0
       ],
       "type": "VEC3"
     },
@@ -84,12 +78,6 @@
       "byteOffset": 14688,
       "componentType": 5125,
       "count": 7212,
-      "max": [
-        1993
-      ],
-      "min": [
-        0
-      ],
       "type": "SCALAR"
     }
   ],
@@ -100,14 +88,13 @@
       "source": "https://sketchfab.com/3d-models/avatar-tag-e10204b8c0914cffbe7acd591d87867e",
       "title": "avatar tag"
     },
-    "generator": "Sketchfab-9.73.0",
+    "generator": "Sketchfab-12.68.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteLength": 43536,
-      "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
@@ -131,38 +118,27 @@
       "doubleSided": true,
       "name": "color_0",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "metallicFactor": 0,
-        "roughnessFactor": 0.59999999999999998
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
       }
     },
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
       "name": "color_30377",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0,
-          0.46274500000000002,
-          0.66274500000000003,
-          1
+          0.0,
+          0.462745,
+          0.662745,
+          1.0
         ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
+        "metallicFactor": 0.0
       }
     }
   ],
   "meshes": [
     {
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
@@ -176,6 +152,7 @@
       ]
     },
     {
+      "name": "Object_1",
       "primitives": [
         {
           "attributes": {
@@ -194,44 +171,49 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
-      "rotation": [
-        -0.70710678118654746,
-        -0,
-        -0,
-        0.70710678118654757
-      ]
-    },
-    {
-      "children": [
-        2
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
       ],
-      "name": "RootNode (model correction matrix)"
+      "name": "Sketchfab_model"
     },
     {
       "children": [
-        3,
-        4
+        2,
+        3
       ],
       "name": "tinker.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
-      "name": ""
+      "name": "Object_2"
     },
     {
       "mesh": 1,
-      "name": ""
+      "name": "Object_3"
     }
   ],
   "scene": 0,
   "scenes": [
     {
-      "name": "OSG_Scene",
+      "name": "Sketchfab_Scene",
       "nodes": [
         0
       ]
     }
   ]
 }
-
