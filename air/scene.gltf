@@ -5,9 +5,9 @@
       "componentType": 5126,
       "count": 252,
       "max": [
-        11,
-        -7.9380002021789551,
-        -8.4069995880126953
+        11.0,
+        -7.938000202178955,
+        -8.406999588012695
       ],
       "min": [
         -21.461000442504883,
@@ -22,14 +22,14 @@
       "componentType": 5126,
       "count": 252,
       "max": [
-        1,
-        0.70743697881698608,
-        0.70728951692581177
+        1.0,
+        0.7074369788169861,
+        0.7072895169258118
       ],
       "min": [
-        -1,
-        -0.70749920606613159,
-        -0.70741605758666992
+        -1.0,
+        -0.7074992060661316,
+        -0.7074160575866699
       ],
       "type": "VEC3"
     },
@@ -37,12 +37,6 @@
       "bufferView": 0,
       "componentType": 5125,
       "count": 600,
-      "max": [
-        251
-      ],
-      "min": [
-        0
-      ],
       "type": "SCALAR"
     }
   ],
@@ -53,14 +47,13 @@
       "source": "https://sketchfab.com/3d-models/air-a8cf5fe683854cb9a0b5337577e889c9",
       "title": "Air"
     },
-    "generator": "Sketchfab-9.73.0",
+    "generator": "Sketchfab-12.68.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteLength": 2400,
-      "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
@@ -83,26 +76,21 @@
     {
       "alphaMode": "BLEND",
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
       "name": "color_-1028593425",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.69019600000000003,
-          0.90980399999999995,
-          0.93725499999999995,
-          0.23921600000000001
+          0.690196,
+          0.909804,
+          0.937255,
+          0.239216
         ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
+        "metallicFactor": 0.0
       }
     }
   ],
   "meshes": [
     {
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
@@ -121,57 +109,44 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
-      "rotation": [
-        -0.70710678118654746,
-        -0,
-        -0,
-        0.70710678118654757
-      ]
+      "matrix": [
+        1.0,
+        -2.9588895711899567e-17,
+        -1.1158555290266016e-16,
+        0.0,
+        -8.603624003427758e-17,
+        0.4534597694873812,
+        -0.891276717185974,
+        0.0,
+        7.697145886888457e-17,
+        0.891276717185974,
+        0.4534597694873812,
+        0.0,
+        -3.552713678800501e-15,
+        5.130517482757567,
+        8.662792205810549,
+        1.0
+      ],
+      "name": "Sketchfab_model"
     },
     {
       "children": [
         2
       ],
-      "matrix": [
-        1,
-        -1.6081226229577292e-16,
-        -2.832769343193999e-16,
-        0,
-        -2.832769343193999e-16,
-        2.2204460492503131e-16,
-        -1,
-        0,
-        1.6081226229577292e-16,
-        1,
-        2.2204460492503131e-16,
-        0,
-        -1.7763568394002505e-15,
-        0.46949911117553711,
-        -30.53050422668457,
-        1
-      ],
-      "name": "RootNode (model correction matrix)"
-    },
-    {
-      "children": [
-        3
-      ],
       "name": "tinker.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
-      "name": ""
+      "name": "Object_2"
     }
   ],
   "scene": 0,
   "scenes": [
     {
-      "name": "OSG_Scene",
+      "name": "Sketchfab_Scene",
       "nodes": [
         0
       ]
     }
   ]
 }
-
