@@ -5,14 +5,14 @@
       "componentType": 5126,
       "count": 420,
       "max": [
-        15,
-        -0,
-        7.7649998664855957
+        15.0,
+        -0.0,
+        7.764999866485596
       ],
       "min": [
-        -47,
+        -47.0,
         -27.059999465942383,
-        3.7650001049041748
+        3.765000104904175
       ],
       "type": "VEC3"
     },
@@ -22,14 +22,14 @@
       "componentType": 5126,
       "count": 420,
       "max": [
-        1,
-        1,
-        1
+        1.0,
+        1.0,
+        1.0
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -1.0,
+        -1.0,
+        -1.0
       ],
       "type": "VEC3"
     },
@@ -37,12 +37,6 @@
       "bufferView": 0,
       "componentType": 5125,
       "count": 912,
-      "max": [
-        419
-      ],
-      "min": [
-        0
-      ],
       "type": "SCALAR"
     }
   ],
@@ -50,17 +44,16 @@
     "extras": {
       "author": "meg-weis (https://sketchfab.com/meg-weis)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/tinker-5142e7b1afde41eba46ec67652157936",
-      "title": "Tinker"
+      "source": "https://sketchfab.com/3d-models/earth-5142e7b1afde41eba46ec67652157936",
+      "title": "earth"
     },
-    "generator": "Sketchfab-9.73.0",
+    "generator": "Sketchfab-12.68.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
       "byteLength": 3648,
-      "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
@@ -82,26 +75,21 @@
   "materials": [
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
       "name": "color_11107152",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.66274500000000003,
-          0.48235299999999998,
+          0.662745,
+          0.482353,
           0.313726,
-          1
+          1.0
         ],
-        "metallicFactor": 0,
-        "roughnessFactor": 1
+        "metallicFactor": 0.0
       }
     }
   ],
   "meshes": [
     {
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
@@ -120,39 +108,44 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
-      "rotation": [
-        -0.70710678118654746,
-        -0,
-        -0,
-        0.70710678118654757
-      ]
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9999970197677612,
+        -0.0024292783346029356,
+        0.0,
+        0.0,
+        0.0024292783346029356,
+        -0.9999970197677612,
+        0.0,
+        0.0,
+        -7.779010295867924,
+        19.262161254882813,
+        1.0
+      ],
+      "name": "Sketchfab_model"
     },
     {
       "children": [
         2
       ],
-      "name": "RootNode (model correction matrix)"
-    },
-    {
-      "children": [
-        3
-      ],
       "name": "tinker.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
-      "name": ""
+      "name": "Object_2"
     }
   ],
   "scene": 0,
   "scenes": [
     {
-      "name": "OSG_Scene",
+      "name": "Sketchfab_Scene",
       "nodes": [
         0
       ]
     }
   ]
 }
-
